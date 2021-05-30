@@ -49,11 +49,11 @@ document.querySelector(".check").addEventListener("click", function () {
     if (guess > secretNumber) {
       score--;
       document.querySelector(".score").textContent = score;
-      document.querySelector(".message").textContent = " 🔼Too high!";
+      document.querySelector(".message").textContent = " 🔼 Too high!";
     } else if (guess < secretNumber) {
       score--;
       document.querySelector(".score").textContent = score;
-      document.querySelector(".message").textContent = "🔽Too low!";
+      document.querySelector(".message").textContent = "🔽 Too low!";
     }
   } else {
     document.querySelector(".message").textContent =
