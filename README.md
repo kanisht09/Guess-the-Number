@@ -1,4 +1,4 @@
-# Guess The Number
+# Guess My Number
 
 
 #### Enjoy the guessing game 😀
